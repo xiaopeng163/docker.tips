@@ -7,3 +7,4 @@ Docker的安装
     install/windows-setup
     install/mac-setup
     install/linux-setup
+    install/win10-wsl2

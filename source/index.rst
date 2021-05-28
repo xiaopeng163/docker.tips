@@ -12,6 +12,8 @@ Docker Tips Docker笔记
 
    docker-install
    container-quickstart
+   docker-image
+   dockerfile-guide
 
 Indices and tables
 ==================
