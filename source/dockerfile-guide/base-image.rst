@@ -35,3 +35,10 @@ Build一个Nginx镜像
 
     ADD index.html /usr/share/nginx/html/index.html
 
+
+
+延申阅读
+---------------
+
+- https://pythonspeed.com/articles/base-image-python-docker-images/
+- https://pythonspeed.com/articles/alpine-docker-python/
