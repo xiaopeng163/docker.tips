@@ -7,3 +7,4 @@ Dockerfile完全指南
     dockerfile-guide/base-image
     dockerfile-guide/run-cmd
     dockerfile-guide/workdir-copy-add
+    dockerfile-guide/env_vs_arg.rst
