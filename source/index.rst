@@ -6,6 +6,10 @@
 Docker Tips Docker笔记
 =======================================
 
+.. note::
+
+   本文档是为配套慕课网的Docker课程所写, 如果大家发现文章中的错误，欢迎提PR或者issue指正
+
 .. toctree::
    :maxdepth: 2
    :caption: 目录:
@@ -14,6 +18,7 @@ Docker Tips Docker笔记
    container-quickstart
    docker-image
    dockerfile-guide
+   single-host-network
 
 Indices and tables
 ==================
