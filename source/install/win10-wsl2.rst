@@ -1,6 +1,14 @@
 安装Windows10 WSL2环境和Docker
 ===================================
 
+如果大家使用Windows10的话，比较建议大家安装WSL2
+
+我在Youtube和B站上有相关的系列视频，感兴趣的可以观看(观看地址在下面)
+
+
+.. image:: ../_static/win10-wls2.PNG
+    :alt: win10-wsl2
+
 
 Windows10 WSL2环境的搭建系列视频
 

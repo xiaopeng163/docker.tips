@@ -8,7 +8,7 @@ Docker Tips Docker笔记
 
 .. note::
 
-   本文档是为配套慕课网的Docker课程所写, 如果大家发现文章中的错误，欢迎提PR或者issue指正
+   如果大家发现文章中的错误，欢迎提PR或者issue指正https://github.com/xiaopeng163/docker.tips/issues
 
 .. toctree::
    :maxdepth: 2
@@ -20,6 +20,9 @@ Docker Tips Docker笔记
    dockerfile-guide
    docker-volume
    single-host-network
+   docker-compose
+   docker-swarm
+   docker-blog
 
 Indices and tables
 ==================

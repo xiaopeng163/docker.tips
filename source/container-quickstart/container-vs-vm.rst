@@ -3,7 +3,7 @@
 
 
 .. image:: ../_static/containers-vs-virtual-machines.jpg
-
+    :alt: docker-vs-vm
 
 容器不是Mini虚拟机
 ---------------------

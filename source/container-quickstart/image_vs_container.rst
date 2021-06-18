@@ -19,7 +19,7 @@ container容器
 - 基于同一个image可以创建多个container
 
 .. image:: ../_static/container-layers.png
-
+    :alt: docker-image-vs-container
 
 docker image的获取
 ----------------------
