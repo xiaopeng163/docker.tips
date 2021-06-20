@@ -9,3 +9,4 @@ Docker的介绍和安装
     install/mac-setup
     install/linux-setup
     install/win10-wsl2
+    install/docker-machine
