@@ -8,6 +8,10 @@ Docker Tips (Docker笔记)
 
 .. note::
 
+   此站的永久域名是 https://www.docker.tips 欢迎收藏
+  
+.. note::
+
    如果大家发现文章中的错误，欢迎提PR或者issue指正https://github.com/xiaopeng163/docker.tips/issues
 
 .. toctree::
