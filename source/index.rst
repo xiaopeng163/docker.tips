@@ -8,7 +8,7 @@ Docker Tips (Docker笔记)
 
 .. note::
 
-   如果大家发现文章中的错误，欢迎提PR或者issue指正https://github.com/xiaopeng163/docker.tips/issues
+   请收藏永久域名 https://www.docker.tips 另外如果大家发现文章中的错误，欢迎提PR或者issue指正 https://github.com/xiaopeng163/docker.tips/issues
 
 .. toctree::
    :maxdepth: 2
