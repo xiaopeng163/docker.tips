@@ -37,7 +37,7 @@
 .. code-block:: bash
 
     $ more my-cron
-    */1 * * * * date >> /root/test.txt
+    */1 * * * * date >> /app/test.txt
 
 
 这里给大家推荐一个写crontab规则的网站https://crontab.guru
