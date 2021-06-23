@@ -24,3 +24,4 @@ sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.4
 urllib3==1.26.5
 sphinx-press-theme==0.7.3
+sphinx-book-theme
