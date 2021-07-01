@@ -45,3 +45,9 @@ docker container命令小技巧
 -------------
 
 和批量停止类似，可以使用  ``docker container rm $(docker container ps -aq)``
+
+
+
+.. note::
+
+    ``docker system prune -a -f`` 可以快速对系统进行清理，删除停止的容器，不用的image，等等
