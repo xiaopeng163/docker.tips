@@ -141,6 +141,47 @@ iptable [#f4]_ 转发规则
 
 
 
+端口转发
+-------------
+
+创建容器
+
+.. code-block:: bash
+
+    $ docker container run -d --rm --name web -p 8080:80 nginx
+    $ docker container inspect --format '{{.NetworkSettings.IPAddress}}' web
+    $ docker container run -d --rm --name client busybox /bin/sh -c "while true; do sleep 3600; done"
+    $ docker container inspect --format '{{.NetworkSettings.IPAddress}}' client
+    $ docker container exec -it client wget http://172.17.0.2
+
+
+查看iptables的端口转发规则
+
+.. code-block:: bash
+
+    [vagrant@docker-host1 ~]$ sudo iptables -t nat -nvxL
+    Chain PREROUTING (policy ACCEPT 10 packets, 1961 bytes)
+        pkts      bytes target     prot opt in     out     source               destination
+        1       52 DOCKER     all  --  *      *       0.0.0.0/0            0.0.0.0/0            ADDRTYPE match dst-type LOCAL
+
+    Chain INPUT (policy ACCEPT 9 packets, 1901 bytes)
+        pkts      bytes target     prot opt in     out     source               destination
+
+    Chain OUTPUT (policy ACCEPT 2 packets, 120 bytes)
+        pkts      bytes target     prot opt in     out     source               destination
+        0        0 DOCKER     all  --  *      *       0.0.0.0/0           !127.0.0.0/8          ADDRTYPE match dst-type LOCAL
+
+    Chain POSTROUTING (policy ACCEPT 4 packets, 232 bytes)
+        pkts      bytes target     prot opt in     out     source               destination
+        3      202 MASQUERADE  all  --  *      !docker0  172.17.0.0/16        0.0.0.0/0
+        0        0 MASQUERADE  tcp  --  *      *       172.17.0.2           172.17.0.2           tcp dpt:80
+
+    Chain DOCKER (2 references)
+        pkts      bytes target     prot opt in     out     source               destination
+        0        0 RETURN     all  --  docker0 *       0.0.0.0/0            0.0.0.0/0
+        1       52 DNAT       tcp  --  !docker0 *       0.0.0.0/0            0.0.0.0/0            tcp dpt:8080 to:172.17.0.2:80
+
+
 参考资料
 --------
 
