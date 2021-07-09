@@ -6,3 +6,4 @@ Docker Compose
  
     docker-compose/intro
     docker-compose/install
+    docker-compose/compose-file

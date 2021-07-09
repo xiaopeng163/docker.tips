@@ -7,11 +7,8 @@ Windows和Mac在默认安装了docker desktop以后，docker-compose随之自动
 
 .. code-block:: powershell
 
-    PS C:\Users\Peng Xiao\docker.tips> docker-compose version
+    PS C:\Users\Peng Xiao\docker.tips> docker-compose --version
     docker-compose version 1.29.2, build 5becea4c
-    docker-py version: 5.0.0
-    CPython version: 3.9.0
-    OpenSSL version: OpenSSL 1.1.1g  21 Apr 2020
 
 Linux用户需要自行安装
 
@@ -21,12 +18,8 @@ Linux用户需要自行安装
 
     $ sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
     $ sudo chmod +x /usr/local/bin/docker-compose
-    $ docker-compose version
+    $ docker-compose --version
     docker-compose version 1.29.2, build 5becea4c
-    docker-py version: 5.0.0
-    CPython version: 3.7.10
-    OpenSSL version: OpenSSL 1.1.0l  10 Sep 2019
-
 
 熟悉python的朋友，可以使用pip去安装docker-Compose
 
