@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  box1:
+    image: xiaopeng163/net-box:latest
+    command: /bin/sh -c "while true; do sleep 3600; done"
+
+  box2:
+    image: xiaopeng163/net-box:latest
+    command: /bin/sh -c "while true; do sleep 3600; done"
