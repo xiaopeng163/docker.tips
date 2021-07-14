@@ -8,3 +8,5 @@ Docker Compose
     docker-compose/install
     docker-compose/compose-file
     docker-compose/compose-scale
+    docker-compose/compose-env
+    docker-compose/compose-healthcheck
