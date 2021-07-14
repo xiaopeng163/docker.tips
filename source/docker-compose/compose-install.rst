@@ -1,4 +1,4 @@
-docker-compose 的安装
+docker compose 的安装
 ===========================
 
 

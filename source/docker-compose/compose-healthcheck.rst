@@ -164,3 +164,5 @@ docker-compose 健康检查
 
 示例代码下载(flask + redis healthcheck) :download:`本节源码 <compose-healthcheck-redis.zip>`
 
+
+一个healthcheck不错的例子 https://gist.github.com/phuysmans/4f67a7fa1b0c6809a86f014694ac6c3a
