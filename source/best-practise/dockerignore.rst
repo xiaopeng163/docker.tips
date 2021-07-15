@@ -1,4 +1,4 @@
-Dockerfile技巧——合理使用.dockerignore
+Dockerfile 技巧——合理使用 .dockerignore
 ==============================================
 
 

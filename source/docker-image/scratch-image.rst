@@ -1,4 +1,4 @@
-关于scratch镜像
+关于 scratch 镜像
 =====================
 
 Scratch是一个空的Docker镜像。

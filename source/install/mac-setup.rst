@@ -1,4 +1,4 @@
-在Mac系统上安装Docker
+在 Mac 系统上安装 Docker
 ============================
 
 请下载安装 Docker Desktop for Mac, 注意版本

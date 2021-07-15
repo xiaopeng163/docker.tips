@@ -1,4 +1,4 @@
-Python Flask + Redis练习
+Python Flask + Redis 练习
 ===========================
 
 

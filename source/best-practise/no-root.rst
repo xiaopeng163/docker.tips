@@ -1,4 +1,4 @@
-Dockerfile技巧——尽量使用非root用户
+Dockerfile 技巧——尽量使用非root用户
 ========================================
 
 .. note:: 
@@ -74,7 +74,7 @@ docker的root权限一直是其遭受诟病的地方，docker的root权限有那
 如何使用非root用户
 -----------------------
 
-我们准备两个Dockerfile，第一个Dockerfile如下，其中app.py文件源码请参考 :ref:`一起构建一个Python Flask镜像`：
+我们准备两个Dockerfile，第一个Dockerfile如下，其中app.py文件源码请参考 :ref:`一起构建一个 Python Flask 镜像` ：
 
 .. code-block:: dockerfile
 

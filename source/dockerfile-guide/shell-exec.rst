@@ -1,4 +1,4 @@
-Shell格式和Exec格式
+Shell 格式和 Exec 格式
 =======================
 
 CMD和ENTRYPOINT同时支持shell格式和Exec格式。

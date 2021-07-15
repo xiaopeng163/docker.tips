@@ -1,4 +1,4 @@
-安装Windows10 WSL2环境和Docker
+安装 Windows10 WSL2 环境和 Docker
 ===================================
 
 如果大家使用Windows10的话，比较建议大家安装WSL2
