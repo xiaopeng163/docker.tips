@@ -1,4 +1,4 @@
-Docker Compose
+7. Docker Compose
 =====================
 
 .. toctree::
