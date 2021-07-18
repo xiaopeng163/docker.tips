@@ -54,3 +54,8 @@ RAFT相关资料
 - http://thesecretlivesofdata.com/raft/
 - https://raft.github.io/
 - https://docs.docker.com/engine/swarm/raft/
+
+
+看动画学会 Raft 算法
+
+https://mp.weixin.qq.com/s/p8qBcIhM04REuQ-uG4gnbw
