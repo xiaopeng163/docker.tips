@@ -38,5 +38,7 @@ Vagrant入门系列视频
 
 
 
-本节Vagrant搭建的文件下载 :download:`vagrant相关文件 <vagrant-setup.zip>`
+本节Vagrant搭建的文件下载 
 
+- :download:`Centos 版 vagrant相关文件 <vagrant-setup.zip>`
+- :download:`Ubuntu 版 vagrant相关文件 <vagrant-setup-ubuntu.zip>`

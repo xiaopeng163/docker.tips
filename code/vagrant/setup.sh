@@ -1,7 +1,7 @@
 #/bin/sh
 
 # install some tools
-sudo yum install -y git vim gcc glibc-static telnet psmisc
+sudo apt-get install -y git vim gcc build-essential telnet bridge-utils
 
 # install docker
 curl -fsSL get.docker.com -o get-docker.sh
@@ -14,10 +14,10 @@ else
 fi
 
 sudo gpasswd -a $USER docker
-sudo systemctl start docker
+sudo service docker restart
 
 rm -rf get-docker.sh
 
 # open password auth for backup if ssh key doesn't work, bydefault, username=vagrant password=vagrant
-sudo sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config
-sudo systemctl restart sshd
+# sudo sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config
+# sudo service sshd restart
