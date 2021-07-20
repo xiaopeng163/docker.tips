@@ -21,7 +21,11 @@ Swarm 三节点集群搭建
 
 为了简化，以上所有端口都允许节点之间自由访问就行。
 
+.. warning::
 
+    请大家注意，请大家使用自己熟悉的方式去创建这样的三节点集群，如果熟悉vagrant和virtualbox，那可以使用我们课程的里方法，如果不熟悉想学习，请参考B站和Youtube视频，我们在课程里不会去讲解
+    什么是vagrant/virtualbox以及怎么去使用它。
+ 
 
 Vagrant + Virtualbox
 ------------------------
@@ -42,3 +46,13 @@ Vagrant入门系列视频
 
 - :download:`Centos 版 vagrant相关文件 <vagrant-setup.zip>`
 - :download:`Ubuntu 版 vagrant相关文件 <vagrant-setup-ubuntu.zip>`
+
+
+Vagrant的基本操作请参考我们的上面的B站或者Youtube视频
+
+
+虚拟机的启动：vagrant up
+
+虚拟机的停止：vagrant halt
+
+虚拟机的删除：vagrant destroy
