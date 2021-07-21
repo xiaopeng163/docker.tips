@@ -1,4 +1,4 @@
-Swarm 的 overlay 网络详解(上)
+Swarm 的 overlay 网络详解
 ==============================
 
 对于理解swarm的网络来讲，个人认为最重要的两个点：
@@ -43,3 +43,5 @@ Swarm 的 overlay 网络详解(上)
 
 到worker1和worker2上分别查看容器的网络连接情况
 
+.. image:: ../_static/docker-swarm/swarm-overlay.png
+    :alt: docker-swarm-overlay
