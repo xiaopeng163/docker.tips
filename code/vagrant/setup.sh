@@ -1,7 +1,7 @@
 #/bin/sh
 
 # install some tools
-sudo apt-get install -y git vim gcc build-essential telnet bridge-utils
+sudo apt-get install -y git vim gcc build-essential telnet bridge-utils ipvsadm
 
 # install docker
 curl -fsSL get.docker.com -o get-docker.sh
