@@ -8,3 +8,4 @@
     docker-swarm/swarm-1node
     docker-swarm/swarm-3nodes-cluster
     docker-swarm/overlay-network
+    docker-swarm/ingress-network
