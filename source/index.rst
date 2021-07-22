@@ -22,6 +22,10 @@ Docker Tips (Docker笔记)
 
    如果大家发现文章中的错误，欢迎提PR或者issue指正 https://github.com/xiaopeng163/docker.tips/issues
 
+.. image:: _static/wechat.jpg
+   :alt: wechat
+
+
 .. toctree::
    :maxdepth: 2
    :caption: 目录:
@@ -35,6 +39,7 @@ Docker Tips (Docker笔记)
    docker-compose
    docker-swarm
    docker-blog
+
 
 Indices and tables
 ==================
