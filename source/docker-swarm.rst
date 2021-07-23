@@ -10,3 +10,4 @@
     docker-swarm/overlay-network
     docker-swarm/ingress-network
     docker-swarm/internal_lb
+    docker-swarm/multi-service
