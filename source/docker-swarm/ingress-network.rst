@@ -204,7 +204,7 @@ ingress 数据包的走向
 
 - 这是一个stateless load balancing
 - 这是三层的负载均衡，不是四层的 LB is at OSI Layer 3 (TCP), not Layer 4 (DNS)
-- 以上两个限制可以通过Nginx或者HAProxy LB proxy解决
+- 以上两个限制可以通过Nginx或者HAProxy LB proxy解决  （https://docs.docker.com/engine/swarm/ingress/）
 
 
 更多详细内容
