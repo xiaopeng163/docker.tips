@@ -11,3 +11,4 @@
     docker-swarm/ingress-network
     docker-swarm/internal_lb
     docker-swarm/multi-service
+    docker-swarm/swarm-stack
