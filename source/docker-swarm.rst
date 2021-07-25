@@ -12,3 +12,4 @@
     docker-swarm/internal_lb
     docker-swarm/multi-service
     docker-swarm/swarm-stack
+    docker-swarm/swarm-secret
