@@ -13,3 +13,4 @@
     docker-swarm/multi-service
     docker-swarm/swarm-stack
     docker-swarm/swarm-secret
+    docker-swarm/swarm-volume
