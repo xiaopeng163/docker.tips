@@ -14,16 +14,13 @@ swarm 使用 local volume
         image: mysql:5.7
         environment:
           - MYSQL_ROOT_PASSWORD_FILE=/run/secrets/mysql_pass
-        restart: always
         secrets:
           - mysql_pass
-        restart: always
         volumes:
           - data:/var/lib/mysql
 
     volumes:
       data:
-        external: true
 
     secrets:
       mysql_pass:
