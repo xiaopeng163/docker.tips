@@ -14,3 +14,4 @@
     docker-swarm/swarm-stack
     docker-swarm/swarm-secret
     docker-swarm/swarm-volume
+    docker-swarm/swarm-vote-app
