@@ -4,10 +4,11 @@
 .. toctree::
     :maxdepth: 1
  
-    install/docker-intro
-    install/windows-setup
-    install/mac-setup
-    install/linux-setup
-    install/win10-wsl2
-    install/docker-machine
-    install/docker-vagrant
+    docker-install/docker-intro
+    docker-install/windows-setup
+    docker-install/mac-setup
+    docker-install/linux-setup
+    docker-install/win10-wsl2
+    docker-install/docker-machine
+    docker-install/docker-vagrant
+    docker-install/docker-install-qa
