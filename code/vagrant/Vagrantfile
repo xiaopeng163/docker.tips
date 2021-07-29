@@ -5,20 +5,8 @@ Vagrant.require_version ">= 1.6.0"
 
 boxes = [
     {
-        :name => "swarm-manager",
+        :name => "podman-host",
         :eth1 => "192.168.200.10",
-        :mem => "1024",
-        :cpu => "1"
-    },
-    {
-        :name => "swarm-worker1",
-        :eth1 => "192.168.200.11",
-        :mem => "1024",
-        :cpu => "1"
-    },
-    {
-        :name => "swarm-worker2",
-        :eth1 => "192.168.200.12",
         :mem => "1024",
         :cpu => "1"
     }
@@ -26,7 +14,7 @@ boxes = [
 
 Vagrant.configure(2) do |config|
 
-  config.vm.box = "ubuntu/focal64"
+  config.vm.box = "generic/ubuntu2010"
   boxes.each do |opts|
     config.vm.define opts[:name] do |config|
       config.vm.hostname = opts[:name]
