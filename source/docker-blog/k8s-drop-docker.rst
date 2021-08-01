@@ -8,5 +8,9 @@ Kubernetes停止支持Docker了？
 Docker还值得学习么？
 
 
+观看地址：
+
 YouTube: https://www.youtube.com/watch?v=VTFjIfOLP8c
+
+
 B 站：https://www.bilibili.com/video/av928231385/
