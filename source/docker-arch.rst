@@ -5,4 +5,5 @@
 .. toctree::
     :maxdepth: 1
  
-    docker-arch/intro.rst
+    docker-arch/intro
+    docker-arch/docker-buildx
