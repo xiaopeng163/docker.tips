@@ -40,6 +40,7 @@ Docker Tips (Docker笔记)
    docker-swarm
    docker-podman
    docker-arch
+   docker-cicd
    docker-blog
 
 
