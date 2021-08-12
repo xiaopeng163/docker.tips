@@ -23,3 +23,17 @@ jobs:
           push: true
           platforms: linux/amd64,linux/arm64
           tags: xiaopeng163/dockertips:latest
+  Deploy-AWS:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: deploy to aws
+        run: |
+          pip install ansible
+          echo ${{ secrets.ANSIBLE_VAULT }} > vault_pass.txt
+          export ANSIBLE_VAULT_PASSWORD_FILE=vault_pass.txt
+          cd ansible/
+          ansible-vault decrypt aws.pem
+          ansible-playbook -i hosts deploy.yml

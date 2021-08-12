@@ -1,1 +1,18 @@
-hosts: all
+- name: deploy docker.tips
+  hosts: aws
+  gather_facts: no
+  vars:
+    ansible_connection: ssh
+    ansible_user: ubuntu
+    ansible_ssh_private_key_file: ./aws.pem
+
+  tasks:
+    - name: stop the old container
+      shell: docker container stop web
+      ignore_errors: yes
+
+    - name: update docker image
+      shell: docker image pull xiaopeng163/dockertips:latest
+
+    - name: create new container
+      shell: docker container run --rm -d -p 80:80 --name web xiaopeng163/dockertips:latest
