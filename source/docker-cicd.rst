@@ -5,3 +5,4 @@
     :maxdepth: 1
  
     docker-cicd/intro
+    docker-cicd/resources
