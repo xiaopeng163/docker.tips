@@ -6,3 +6,4 @@
  
     docker-blog/docker-cron
     docker-blog/k8s-drop-docker
+    docker-blog/docker-sock
