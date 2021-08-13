@@ -18,9 +18,22 @@ Docker Tips (Docker笔记)
 
    如果大家发现文章中的错误，欢迎提PR或者issue指正 https://github.com/xiaopeng163/docker.tips/issues
 
+   也欢迎大家关注我的微信公众号，会不定期分享一些Docker的技术文章
+
 .. image:: _static/wechat.jpg
+   :width: 400
    :alt: wechat
 
+.. note::
+
+   有购买了盗版或者白嫖的同学，如果过意不去也可以给我打赏，金额随意
+
+.. image:: _static/wechat-tips.jpg
+   :width: 250
+   :alt: wechat-tips
+
+
+  
 
 .. toctree::
    :maxdepth: 2
