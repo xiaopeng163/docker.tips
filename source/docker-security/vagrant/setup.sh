@@ -1,7 +1,7 @@
 #/bin/sh
 
 # install some tools
-sudo apt-get install -y git vim gcc build-essential telnet
+sudo apt-get install -y git vim gcc build-essential telnet unzip
 
 # install docker
 curl -fsSL get.docker.com -o get-docker.sh

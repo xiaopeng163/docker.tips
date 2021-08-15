@@ -6,3 +6,4 @@
 
     docker-security/intro
     docker-security/docker-cfg-scan
+    docker-security/code-image-scan
