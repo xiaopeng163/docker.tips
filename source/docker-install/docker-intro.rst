@@ -28,39 +28,37 @@ Package Software into Standardized Units for Development, Shipment and Deploymen
 - 易移植
 
 
-.. image:: ../_static/container-real.jpg
-    :alt: real-container
+为什么容器技术会出现？
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: ../_static/docker-install/why_container_1.png
+    :width: 400px
+    :alt: why_container1
+
+.. image:: ../_static/docker-install/why_container_2.png
+    :width: 400px
+    :alt: why_container2
 
 
-Linux Container容器技术的诞生（2008年）就解决了IT世界里“集装箱运输”的问题。Linux Container（简称LXC）它是一种内核轻量级的操作系统层虚拟化技术。Linux Container主要由Namespace和Cgroup两大机制来保证实现
+容器 vs 虚拟机 [#f0]_
 
-- Namespace命名空间主要用于资源的隔离
-- Cgroup就负责资源管理控制作用，比如进程组使用CPU/MEM的限制，进程组的优先级控制，进程组的挂起和恢复等等。
-
-
-.. image:: ../_static/container-what-is-container.png
-    :width: 600px
-    :alt: what-is-container
+.. image:: ../_static/docker-install/container_vs_vm.PNG
+    :alt: container_vs_vm
 
 
-容器的快速发展和普及
--------------------------
+Linux Container容器技术的诞生于2008年（Docker诞生于2013年），解决了IT世界里“集装箱运输”的问题。Linux Container（简称LXC）它是一种内核轻量级的操作系统层虚拟化技术。Linux Container主要由Namespace [#f1]_ 和Cgroups [#f2]_ 两大机制来保证实现
 
-.. note::
-    到2020年，全球超过50%的公司将在生产环境中使用container —— Gartner
+- Namespace命名空间主要用于资源的隔离（诞生于2002年）
+- Cgroups(Control Groups)就负责资源管理控制作用，比如进程组使用CPU/MEM的限制，进程组的优先级控制，进程组的挂起和恢复等等。（由Google贡献，2008年合并到了Linux Kernel）
 
-https://www.docker.com/blog/docker-index-shows-continued-massive-developer-adoption-and-activity-to-build-and-share-apps-with-docker/
 
-.. image:: ../_static/dockerhub-2020.png
-    :width: 600px
-    :alt: dockerhub2020
 
 容器的标准化
 -------------
 
 ``docker != container`` 
 
-在2015年，由Google，Docker、红帽等厂商联合发起了OCI（Open Container Initiative）组织，致力于容器技术的标准化
+在2015年，由Google，Docker、红帽等厂商联合发起了OCI（Open Container Initiative）组织，致力于容器技术的标准化 [#f4]_
 
 容器运行时标准 （runtime spec）
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -83,3 +81,23 @@ https://www.docker.com/blog/docker-index-shows-continued-massive-developer-adopt
 - 容器会速度你的部署
 - 容器会加速你的更新
 - 容器会速度你的故障恢复
+
+容器的快速发展和普及
+-------------------------
+
+.. note::
+    到2020年，全球超过50%的公司将在生产环境中使用container —— Gartner [#f3]_
+
+.. image:: ../_static/dockerhub-2020.png
+    :width: 600px
+    :alt: dockerhub2020
+
+
+参考资料
+--------
+
+.. [#f0] https://k21academy.com/docker-kubernetes/docker-vs-virtual-machine/
+.. [#f1] https://en.wikipedia.org/wiki/Linux_namespaces
+.. [#f2] https://en.wikipedia.org/wiki/Cgroups
+.. [#f4] https://opencontainers.org/
+.. [#f3] https://www.docker.com/blog/docker-index-shows-continued-massive-developer-adoption-and-activity-to-build-and-share-apps-with-docker/
