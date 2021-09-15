@@ -31,9 +31,13 @@ Package Software into Standardized Units for Development, Shipment and Deploymen
 为什么容器技术会出现？
 ~~~~~~~~~~~~~~~~~~~~~~
 
+容器技术出现之前
+
 .. image:: ../_static/docker-install/why_container_1.png
     :width: 400px
     :alt: why_container1
+
+容器技术出现之后
 
 .. image:: ../_static/docker-install/why_container_2.png
     :width: 400px
