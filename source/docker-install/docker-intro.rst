@@ -46,7 +46,7 @@ Package Software into Standardized Units for Development, Shipment and Deploymen
 
 容器 vs 虚拟机 [#f0]_
 
-.. image:: ../_static/docker-install/container_vs_vm.PNG
+.. image:: ../_static/docker-install/container_vs_vm.png
     :alt: container_vs_vm
 
 
