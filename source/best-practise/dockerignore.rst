@@ -19,7 +19,7 @@ Docker是client-server架构，理论上Client和Server可以不在一台机器�
     RUN pip install flask
 
     WORKDIR /src
-    ENV FLASK=app.py
+    ENV FLASK_APP=app.py
 
     COPY app.py /src/app.py
 
@@ -50,7 +50,7 @@ Docker是client-server架构，理论上Client和Server可以不在一台机器�
     Step 3/7 : WORKDIR /src
      ---> Using cache
      ---> 1c2f968e9f9b
-    Step 4/7 : ENV FLASK=app.py
+    Step 4/7 : ENV FLASK_APP=app.py
      ---> Using cache
      ---> dceb15b338cf
     Step 5/7 : COPY app.py /src/app.py
@@ -94,7 +94,7 @@ Docker是client-server架构，理论上Client和Server可以不在一台机器�
     Step 3/7 : WORKDIR /src
     ---> Using cache
     ---> 1c2f968e9f9b
-    Step 4/7 : ENV FLASK=app.py
+    Step 4/7 : ENV FLASK_APP=app.py
     ---> Using cache
     ---> dceb15b338cf
     Step 5/7 : COPY . /src/

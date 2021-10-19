@@ -85,7 +85,7 @@ docker的root权限一直是其遭受诟病的地方，docker的root权限有那
     COPY app.py /src/app.py
 
     WORKDIR /src
-    ENV FLASK=app.py
+    ENV FLASK_APP=app.py
 
     EXPOSE 5000
 
@@ -112,7 +112,7 @@ docker的root权限一直是其遭受诟病的地方，docker的root权限有那
     COPY app.py /src/app.py
 
     WORKDIR /src
-    ENV FLASK=app.py
+    ENV FLASK_APP=app.py
 
     EXPOSE 5000
 

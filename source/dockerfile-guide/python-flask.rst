@@ -26,7 +26,7 @@ Dockerfile
     RUN pip install flask
 
     WORKDIR /src
-    ENV FLASK=app.py
+    ENV FLASK_APP=app.py
 
     EXPOSE 5000
 

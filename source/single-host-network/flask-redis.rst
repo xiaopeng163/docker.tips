@@ -47,7 +47,7 @@ Python Flask + Redis 练习
 
     WORKDIR /src
 
-    ENV FLASK=app.py REDIS_HOST=redis
+    ENV FLASK_APP=app.py REDIS_HOST=redis
 
     EXPOSE 5000
 

@@ -81,7 +81,7 @@ docker compose https://docs.docker.com/compose/compose-file/compose-file-v3/#hea
 
     WORKDIR /src
 
-    ENV FLASK=app.py REDIS_HOST=redis
+    ENV FLASK_APP=app.py REDIS_HOST=redis
 
     EXPOSE 5000
 
