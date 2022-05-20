@@ -33,6 +33,16 @@ Docker Tips (Docker笔记)
    :alt: wechat-tips
 
 
+
+.. image:: _static/wechat/wechat1.jpg
+   :width: 180
+   :alt: wechat-tips
+
+.. image:: _static/wechat/wechat2.jpg
+   :width: 180
+   :alt: wechat-tips
+
+
   
 
 .. toctree::
