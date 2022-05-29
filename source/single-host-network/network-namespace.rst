@@ -41,7 +41,7 @@ Linux的Namespace（命名空间）技术是一种隔离技术，常用的Namesp
     addr=$3
 
     vethA=veth-$namespace
-    vethB=eth00
+    vethB=eth00-$namespace
 
     sudo ip netns add $namespace
     sudo ip link add $vethA type veth peer name $vethB
