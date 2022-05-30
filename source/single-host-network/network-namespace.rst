@@ -30,6 +30,10 @@ Linux的Namespace（命名空间）技术是一种隔离技术，常用的Namesp
 准备一个shell脚本
 -------------------
 
+.. note::
+
+    https://twitter.com/xiaopeng163/status/1531022226933391362?s=20&t=LuWDZHV3TCLmLsI1nCb1FQ
+
 脚本名字叫 ``add-ns-to-br.sh``
 
 .. code-block:: bash
