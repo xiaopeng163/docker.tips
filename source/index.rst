@@ -18,11 +18,15 @@ Docker Tips (Docker笔记)
 
    如果大家发现文章中的错误，欢迎提PR或者issue指正 https://github.com/xiaopeng163/docker.tips/issues
 
-   也欢迎大家关注我的微信公众号，会不定期分享一些Docker的技术文章
+   也欢迎大家关注我的微信公众号，会不定期分享一些Docker的技术文章, GitHub, Twitter, YouTube
 
 .. image:: _static/wechat.jpg
    :width: 400
    :alt: wechat
+
+.. image:: https://img.shields.io/youtube/channel/subscribers/UCmjdhwMGSut8mZ1CqnRjjUw?style=social   :alt: YouTube Channel Subscribers
+.. image:: https://img.shields.io/github/followers/xiaopeng163?style=social   :alt: GitHub followers
+.. image:: https://img.shields.io/twitter/follow/xiaopeng163?style=social   :alt: Twitter Follow
 
 .. note::
 
