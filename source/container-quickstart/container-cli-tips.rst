@@ -20,14 +20,14 @@ docker container 命令小技巧
 
 .. code-block:: bash
 
-    $ docker container rm cd3 269 34b 751
+    $ docker container stop cd3 269 34b 751
 
 
 方法2
 
 .. code-block:: bash
 
-    $ docker container stop $(docker container ps -q)
+    $ docker container stop $(docker container ps -aq)
     cd3a825fedeb
     269494fe89fa
     34b68af9deef
