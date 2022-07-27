@@ -9,7 +9,7 @@ CMD可以用来设置容器启动时默认会执行的命令。
 
 .. code-block:: Dockerfile
 
-    FROM ubuntu:21.04
+    FROM ubuntu:20.04
     ENV VERSION=2.0.1
     RUN apt-get update && \
         apt-get install -y wget && \

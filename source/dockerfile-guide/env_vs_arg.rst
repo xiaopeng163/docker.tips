@@ -6,7 +6,7 @@
 
 .. code-block:: Dockerfile
 
-    FROM ubuntu:21.04
+    FROM ubuntu:20.04
     RUN apt-get update && \
         apt-get install -y wget && \
         wget https://github.com/ipinfo/cli/releases/download/ipinfo-2.0.1/ipinfo_2.0.1_linux_amd64.tar.gz && \
@@ -20,7 +20,7 @@ ENV
 
 .. code-block:: Dockerfile
 
-    FROM ubuntu:21.04
+    FROM ubuntu:20.04
     ENV VERSION=2.0.1
     RUN apt-get update && \
         apt-get install -y wget && \
@@ -36,7 +36,7 @@ ARG
 
 .. code-block:: Dockerfile
 
-    FROM ubuntu:21.04
+    FROM ubuntu:20.04
     ARG VERSION=2.0.1
     RUN apt-get update && \
         apt-get install -y wget && \
@@ -50,12 +50,12 @@ ARG
 
 .. image:: ../_static/docker_environment_build_args.png
     :alt: docker-image
-    
+
 
 ARG 可以在镜像build的时候动态修改value, 通过 ``--build-arg``
 
 .. code-block:: bash
-    
+
     $ docker image build -f .\Dockerfile-arg -t ipinfo-arg-2.0.0 --build-arg VERSION=2.0.0 .
     $ docker image ls
     REPOSITORY         TAG       IMAGE ID       CREATED          SIZE

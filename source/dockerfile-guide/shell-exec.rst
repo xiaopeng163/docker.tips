@@ -33,7 +33,7 @@ Exec格式
 
 .. code-block:: dockerfile
 
-    FROM ubuntu:21.04
+    FROM ubuntu:20.04
     ENV NAME=docker
     CMD echo "hello $NAME"
 
@@ -41,7 +41,7 @@ Exec格式
 
 .. code-block:: dockerfile
 
-    FROM ubuntu:21.04
+    FROM ubuntu:20.04
     ENV NAME=docker
     CMD ["echo", "hello $NAME"]
 
@@ -50,6 +50,6 @@ Exec格式
 
 .. code-block:: dockerfile
 
-    FROM ubuntu:21.04
+    FROM ubuntu:20.04
     ENV NAME=docker
     CMD ["sh", "-c", "echo hello $NAME"]

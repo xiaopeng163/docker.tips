@@ -10,7 +10,7 @@ ENTRYPOINT 也可以设置容器启动时要执行的命令，但是和CMD是有
 
 .. code-block:: Dockerfile
 
-    FROM ubuntu:21.04
+    FROM ubuntu:20.04
     CMD ["echo", "hello docker"]
 
 把上面的Dockerfile build成一个叫 ``demo-cmd`` 的镜象
@@ -23,7 +23,7 @@ ENTRYPOINT 也可以设置容器启动时要执行的命令，但是和CMD是有
 
 .. code-block:: Dockerfile
 
-    FROM ubuntu:21.04
+    FROM ubuntu:20.04
     ENTRYPOINT ["echo", "hello docker"]
 
 build成一个叫 ``demo-entrypoint`` 的镜像
