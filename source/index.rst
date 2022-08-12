@@ -43,6 +43,9 @@ Docker Tips (Docker笔记)
    :width: 180
    :alt: wechat-tips
 
+.. image:: _static/wechat/wechat3.jpg
+   :width: 180
+   :alt: wechat-tips
 
   
 
