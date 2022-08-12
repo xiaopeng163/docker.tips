@@ -16,17 +16,6 @@ Docker Tips (Docker笔记)
   
 .. note::
 
-   如果大家发现文章中的错误，欢迎提PR或者issue指正 https://github.com/xiaopeng163/docker.tips/issues
-
-   也欢迎大家关注我的微信公众号，会不定期分享一些Docker的技术文章,  `GitHub <https://github.com/xiaopeng163>`_, `Twitter <https://twitter.com/xiaopeng163>`_, `YouTube <https://www.youtube.com/channel/UCmjdhwMGSut8mZ1CqnRjjUw>`_
-
-.. image:: _static/wechat.jpg
-   :width: 400
-   :alt: wechat
-
-
-.. note::
-
    有购买了盗版或者白嫖的同学，如果过意不去也可以给我打赏，金额随意
 
 .. image:: _static/wechat-tips.jpg
@@ -36,18 +25,27 @@ Docker Tips (Docker笔记)
 
 
 .. image:: _static/wechat/wechat1.jpg
-   :width: 180
+   :width: 200
    :alt: wechat-tips
 
 .. image:: _static/wechat/wechat2.jpg
-   :width: 180
+   :width: 200
    :alt: wechat-tips
 
 .. image:: _static/wechat/wechat3.jpg
-   :width: 180
+   :width: 200
    :alt: wechat-tips
 
-  
+
+.. note::
+
+   如果大家发现文章中的错误，欢迎提PR或者issue指正 https://github.com/xiaopeng163/docker.tips/issues
+
+   也欢迎大家关注我的微信公众号，会不定期分享一些Docker的技术文章,  `GitHub <https://github.com/xiaopeng163>`_, `Twitter <https://twitter.com/xiaopeng163>`_, `YouTube <https://www.youtube.com/channel/UCmjdhwMGSut8mZ1CqnRjjUw>`_
+
+.. image:: _static/wechat.jpg
+   :width: 400
+   :alt: wechat
 
 .. toctree::
    :maxdepth: 2
