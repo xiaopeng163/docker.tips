@@ -102,6 +102,6 @@ Linux Container容器技术的诞生于2008年（Docker诞生于2013年），解
 
 .. [#f0] https://k21academy.com/docker-kubernetes/docker-vs-virtual-machine/
 .. [#f1] https://en.wikipedia.org/wiki/Linux_namespaces
-.. [#f2] https://en.wikipedia.org/wiki/Cgroups
+.. [#f2] https://en.wikipedia.org/wiki/Cgroups https://icloudnative.io/posts/understanding-cgroups-part-1-basics/
 .. [#f4] https://opencontainers.org/
 .. [#f3] https://www.docker.com/blog/docker-index-shows-continued-massive-developer-adoption-and-activity-to-build-and-share-apps-with-docker/
