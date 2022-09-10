@@ -13,6 +13,10 @@ Docker Tips (Docker笔记)
 .. note::
 
    此站的永久域名是 https://www.docker.tips 欢迎收藏
+   
+.. note::
+
+   本人同时推出课程《Certified Kubernetes Administrator (CKA) 考试完全指南（2022版）》。课程购买地址 https://www.udemy.com/course/k8s-chinese/?referralCode=4D8B7AFDBFAF9A8E4F81
 
 .. note::
 
