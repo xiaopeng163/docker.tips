@@ -12,6 +12,7 @@
     dockerfile-guide/entrypoint
     dockerfile-guide/shell-exec
     dockerfile-guide/python-flask
+    dockerfile-guide/buildkit
     best-practise/build-cache
     best-practise/dockerignore
     best-practise/multi-stage-build
