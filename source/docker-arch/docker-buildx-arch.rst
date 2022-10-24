@@ -27,7 +27,7 @@
     RUN curl \
         --location \
         --output /tmp/terraform.zip \
-        https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraform_${TERRAFORM_VERSION}_linux_${OS_ARCH}.zip \
+        https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraform_${TERRAFORM_VERSION}_linux_${TARGETARCH}.zip \
         && unzip /tmp/terraform.zip -d /usr/local/bin \
         && rm -rf /tmp/terraform.zip
 
