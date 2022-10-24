@@ -7,3 +7,4 @@
  
     docker-arch/intro
     docker-arch/docker-buildx
+    docker-arch/docker-buildx-arch
