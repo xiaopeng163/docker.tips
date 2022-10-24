@@ -14,6 +14,8 @@
 
 其中TARGETARCH这个参数会随着buildx的不同platform自动变化。然后会根据不同的platform下载不同二进制文件terraform。
 
+类似  https://docs.docker.com/engine/reference/builder/#automatic-platform-args-in-the-global-scope 还有其他的一些自动变量可以参考链接。
+
 .. code-block:: dockerfile
 
     FROM alpine:3.16
