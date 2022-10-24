@@ -42,6 +42,10 @@ Docker Tips (Docker笔记)
    :width: 200
    :alt: wechat-tips
 
+.. image:: _static/wechat/wechat5.jpg
+   :width: 200
+   :alt: wechat-tips
+
 .. toctree::
    :maxdepth: 2
    :caption: 目录:
