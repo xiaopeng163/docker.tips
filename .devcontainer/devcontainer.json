@@ -15,7 +15,23 @@
 	"postCreateCommand": "pip3 install --user -r requirements.txt"
 
 	// Configure tool-specific properties.
-	// "customizations": {},
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "editor.tabSize": 2,
+                "files.trimTrailingWhitespace": true,
+                "workbench.colorTheme": "Aura Dark",
+                "workbench.iconTheme": "material-icon-theme"
+            },
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "DaltonMenezes.aura-theme",
+                "equinusocio.vsc-material-theme-icons",
+                "GitHub.copilot"
+            ]
+        }
+    }
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
