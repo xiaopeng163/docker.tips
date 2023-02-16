@@ -297,6 +297,7 @@ build和测试
 测试
 
 .. code-block:: bash
+
     $ docker build -t hello-go-alpine -f ./df .
     Sending build context to Docker daemon  6.512MB
     Step 1/8 : FROM golang:alpine3.17 AS builder
@@ -337,6 +338,7 @@ build和测试
     golang                                                               alpine3.17          3257bc8ee9f7        3 days ago          254MB
     $ docker run --rm -p 8080:8080 -it hello-go-alpine
     2023/02/14 18:42:29 app.go:14: start server on [localhost:8080] ...
+
 现在镜像只有13.6MB
 
 .. code-block:: bash
