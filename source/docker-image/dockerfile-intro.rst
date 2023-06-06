@@ -16,7 +16,7 @@ https://docs.docker.com/engine/reference/builder/
 举例：执行一个Python程序
 ---------------------------
 
-容器及进程，所以镜像就是一个运行这个进程所需要的环境。
+容器即进程，所以镜像就是一个运行这个进程所需要的环境。
 
 假如我们要在一台ubuntu 21.04上运行下面这个hello.py的Python程序
 
