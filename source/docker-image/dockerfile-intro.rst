@@ -33,7 +33,7 @@ hello.py的文件内容：
     apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y python3.9 python3-pip python3.9-dev
 
-第一步，运行hello.py
+第二步，运行hello.py
 
 .. code-block:: bash
 
